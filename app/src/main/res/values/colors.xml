@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#F09819</color>
+    <color name="colorPrimaryDark">#F09819</color>
+    <color name="colorAccent">#F09819</color>
+    <color name="colorGradientEnd">#F09819</color>
+
+    <color name="colorPurpleLite">#0B5298</color>
+    <color name="colorPurpleDeep">#003366</color>
+    <color name="colorOrangeLite">#0B5298</color>
+    <color name="colorOrangeDeep">#003366</color>
+
+    <color name="colorBlack">#000000</color>
+    <color name="colorWhite">#FFFfFf</color>
+</resources>

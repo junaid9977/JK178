@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/pendingAlertPopUp_id"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:background="@drawable/back_design"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <com.airbnb.lottie.LottieAnimationView
+            android:id="@+id/animation_view"
+            android:layout_gravity="center"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            app:lottie_autoPlay="true"
+            app:lottie_loop="true"
+            app:lottie_rawRes="@raw/gift_box" />
+
+        <TextView
+            android:id="@+id/payAlertmessage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="You text"
+            android:textColor="@color/colorWhite"
+            android:textSize="17sp" />
+        <TextView
+            android:id="@+id/payAlertmessage2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="You text"
+            android:textColor="@color/colorWhite"
+            android:textSize="17sp" />
+
+        <TextView
+            android:id="@+id/payAlertmessage3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="You text"
+            android:textColor="@color/colorWhite"
+            android:textSize="17sp" />
+
+            <Button
+                android:layout_margin="30dp"
+                android:id="@+id/payAlertPayNowBtn"
+                android:layout_width="match_parent"
+                android:textColor="@color/colorWhite"
+                android:background="@drawable/bar_design"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Earn point" />
+
+    </LinearLayout>
+</LinearLayout>
