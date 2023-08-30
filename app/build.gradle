@@ -22,8 +22,8 @@ android {
         applicationId "com.dev_bd.khanjk"
         minSdkVersion 16
         targetSdkVersion 30
-        versionCode 3
-        versionName "3.0"
+        versionCode 1
+        versionName "1.0"
         manifestPlaceholders = [
                 onesignal_app_id: '09dc6265-515d-4055-96dc-d4264c33c3e8',
                 //72f2303-3e4e-4aad-b852-4419bdaa41aa
